@@ -83,7 +83,7 @@ const Portfolio = () => {
               <p className="text-gray-500 mt-4 text-lg max-w-md italic">Full-stack property rental platform using React, Node, and MongoDB.</p>
             </div>
             <div className="flex-1 shadow-2xl rounded-lg overflow-hidden border border-gray-200 hover:scale-105 transition-transform duration-500">
-              <img src="/image_eeae35.jpg" alt="Homezy Interface" className="w-full h-auto" />
+              <img src="/Screenshot 2026-05-12 142856.png" alt="Homezy Interface" className="w-full h-auto" />
             </div>
           </motion.div>
 
@@ -98,7 +98,10 @@ const Portfolio = () => {
               <span className="px-3 py-1 bg-black text-white text-[10px] uppercase tracking-widest rounded-full animate-pulse">In Progress</span>
             </div>
             <p className="text-gray-500 mt-6 text-lg max-w-xl">
-              Campus Menstrual Care Delivery System featuring Razorpay integration and real-time tracking with Socket.io.
+              Developing a real-time campus delivery platform enabling students to request menstrual hygiene products
+directly to classrooms. Implementing secure payments using Razorpay and real-time order tracking with
+Socket.io. Integrating a machine learning-based demand prediction system to forecast product usage and
+optimize inventory management.
             </p>
           </motion.div>
         </div>
@@ -133,7 +136,7 @@ const Portfolio = () => {
             whileInView={{ scale: 1, opacity: 1 }} 
             className="flex-1 rounded-2xl overflow-hidden border border-gray-800 shadow-[0_0_50px_rgba(255,165,0,0.1)]"
           >
-            <img src="/image_ee361d.png" alt="Coding Stats" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
+            <img src="/Screenshot 2026-05-12 144658.png" alt="Coding Stats" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
           </motion.div>
         </div>
       </section>
