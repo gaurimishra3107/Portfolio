@@ -37,7 +37,7 @@ const Portfolio = () => {
           animate={{ opacity: 1, scale: 1 }} 
           className="w-64 h-64 md:w-80 md:h-80 grayscale hover:grayscale-0 transition-all duration-500 rounded-full overflow-hidden border-4 border-black shadow-xl"
         >
-          <img src="/My_Image.jpg" alt="Gauri Mishra" className="w-full h-full object-cover" />
+          <img src="/My_Image.png" alt="Gauri Mishra" className="w-full h-full object-cover" />
         </motion.div>
       </header>
 
@@ -93,7 +93,10 @@ const Portfolio = () => {
               <span className="px-3 py-1 bg-black text-white text-[10px] uppercase tracking-widest rounded-full animate-pulse">In Progress</span>
             </div>
             <p className="text-gray-500 mt-6 text-lg max-w-xl">
-              Real-time campus delivery system for menstrual hygiene products using Socket.io and Razorpay.
+              Developing a real-time campus delivery platform enabling students to request menstrual hygiene products
+directly to classrooms. Implementing secure payments using Razorpay and real-time order tracking with
+Socket.io. Integrating a machine learning-based demand prediction system to forecast product usage and
+optimize inventory management.
             </p>
           </motion.div>
         </div>
